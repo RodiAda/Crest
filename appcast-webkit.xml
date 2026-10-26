@@ -6,37 +6,48 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Crest</title>
         <item>
-            <title>0.8.97</title>
-            <pubDate>Sun, 25 Oct 2026 13:37:55 +0000</pubDate>
+            <title>0.8.114</title>
+            <pubDate>Mon, 26 Oct 2026 15:41:43 +0000</pubDate>
             <link>https://crestbrowser.com/</link>
             <sparkle:channel>nightly</sparkle:channel>
-            <sparkle:version>1332</sparkle:version>
-            <sparkle:shortVersionString>0.8.97</sparkle:shortVersionString>
+            <sparkle:version>1355</sparkle:version>
+            <sparkle:shortVersionString>0.8.114</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.1</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description sparkle:format="markdown"><![CDATA[## Highlights
 
+Showing the 12 most recent highlights from 19 user-facing changes.
+
+### New
+
+- Click the Space in a Quick Window’s address bar to switch Spaces. The page reloads in the Space you choose, with that Space’s cookies and passwords, and Crest remembers the choice for that site.
+- Finished downloads can be dragged out of the Downloads list and dropped into Finder or another app, like any file.
+- Right-click the lists button at the bottom of the sidebar to choose whether it opens Archive, History or Downloads in the Space you are in.
+- Site Controls can clear the open site's cookies or its cache. Clearing cookies signs you out of the site and removes everything it stored in that Space, including service workers and what sites embedded in it stored there. Both are also in the command palette and, on iPhone and iPad, the page menu.
+- Each Space's Privacy settings list the sites that keep data, with Remove and Remove All, and can clear history, cookies and site data, and cached files from the last hour up to all time.
+
 ### Improved
 
-- Opening a link in a background tab now shows a brief confirmation at the top of the window.
-- The Space menu and the iPhone page menu now name and show commands the way the menu bar does, such as Clear Unpinned Tabs and Show History.
+- Pressing Command-T while the command bar is open closes it.
+- The floating sidebar stays open when the pointer drifts just past its edge, and hides once the pointer moves further into the page.
 
 ### Fixed
 
-- On Mac, a page shown in WebKit now uses its own background colour when you scroll past its edges, starting with the first page a tab loads.
-- On iPhone and iPad, running low on memory now unloads one background tab instead of several, so fewer tabs reload when you go back to them.
-- Dragging an Appearance setting, such as the window border, material, Space icon size or the tab and address field colors, no longer slows the whole app down.
-- A folder you make without naming it is called New Folder in the app's language, not always in English.
+- Imported passwords for sites at an IP address written in a long or unusual form, such as 127.1, now fill on that site and merge with passwords already saved for it.
+- Pressing Shift-Return in Find moves to the previous match.
+- On iPad with a keyboard, pressing Tab in a webpage's form no longer switches to another Space.
+- Dragging across a Quick Window’s address field selects its text instead of moving the window. The space around the field still moves the window.
+- On a Start Page, Command-T closes an open command bar and puts the cursor back in the Start Page field.
 
 ---
 
 Nightly builds contain the newest changes and may be less reliable than stable releases.
 
-[View all changes](https://github.com/pauljoda/Crest/compare/36ed0821b08b6373775208aa9bb104596f1184a1...c27d743b929d43914e3a3d5daf8051871d0a1440) · [Download the installer](https://github.com/pauljoda/Crest/releases/download/nightly-0.8.97-2026-10-25-1332-r332.1/Installer-Crest-0.8.97-nightly-2026-10-25-c27d743-arm64.dmg)
+[View all changes](https://github.com/pauljoda/Crest/compare/c27d743b929d43914e3a3d5daf8051871d0a1440...a6f0f0c35427c5cf9029a1f01bd47d20ea3b42a6) · [Download the installer](https://github.com/pauljoda/Crest/releases/download/nightly-0.8.114-2026-10-26-1355-r355.1/Installer-Crest-0.8.114-nightly-2026-10-26-a6f0f0c-arm64.dmg)
 
 [Browse Nightly releases](https://github.com/pauljoda/Crest/releases?q=prerelease%3Atrue+%22Nightly+builds%22)
 ]]></description>
-            <enclosure url="https://github.com/pauljoda/Crest/releases/download/nightly-0.8.97-2026-10-25-1332-r332.1/Installer-Crest-0.8.97-nightly-2026-10-25-c27d743-arm64.dmg" length="219603601" type="application/octet-stream" sparkle:edSignature="sb1gmiLSHDHyQcyEhWnz+i9ii9Sr+CAjJtFy2h3x9b/sCHn4mKco61i8F7qBlMdgyH3XlJcsdo7Xask2QkldAA=="/>
+            <enclosure url="https://github.com/pauljoda/Crest/releases/download/nightly-0.8.114-2026-10-26-1355-r355.1/Installer-Crest-0.8.114-nightly-2026-10-26-a6f0f0c-arm64.dmg" length="220049042" type="application/octet-stream" sparkle:edSignature="0L6bhXYMaakTmPIb38itnpxYF71ommI4u5KxWjT5O0RAOlXXYRk+3V1jkQPQr4ytS27JutG0PrzosfSTyNAWBw=="/>
         </item>
         <item>
             <title>0.8.50</title>
@@ -122,6 +133,6 @@ Nightly builds contain the newest changes and may be less reliable than stable r
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: z2dQ4F1CB+eG/RHqdCYSHvjeRTFjIvBR2wFeTfpztnDchCHlEDjiBg4pXkbqEBHIjrI535QGGe7MCdfjNxjcAw==
-length: 8979
+edSignature: FzTO8zoGwilfgNR2IZycIGYciRqdYmjLoSuQl4kOTrDm1PX6BBA0getuDcr51vUrS4Lp3fkCIQ2cXGZofWkeCw==
+length: 10005
 -->
