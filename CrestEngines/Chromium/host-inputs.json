@@ -378,5 +378,9 @@
   "net/data/ssl/chrome_root_store/root_store.certs": {
     "before": "653230aea8ce815391eb8a13bc22fb3a0243ba0f09395b61c319aa6d52348102",
     "after": "e3ada9517680b712e979331df3c34d805ebcdcbb14da13dcce004f4171e4b8ee"
+  },
+  "chrome/browser/extensions/api/enterprise_reporting_private/enterprise_reporting_private_api.cc": {
+    "before": "5f1eebbd627b83417109a8620d1b6f716e96f04ba5a794c9825aef05d3546f9e",
+    "after": "f5d7cce80ebd34a09f767338f5f0fc5da0ff52d7321a1f7d632b0ee70511bc0c"
   }
 }
