@@ -382,5 +382,9 @@
   "chrome/browser/extensions/api/enterprise_reporting_private/enterprise_reporting_private_api.cc": {
     "before": "5f1eebbd627b83417109a8620d1b6f716e96f04ba5a794c9825aef05d3546f9e",
     "after": "f5d7cce80ebd34a09f767338f5f0fc5da0ff52d7321a1f7d632b0ee70511bc0c"
+  },
+  "chrome/browser/enterprise/signals/context_info_fetcher.cc": {
+    "before": "4c26566baaf632af43c7ba5e9b8c438b7cf8355e0f209c120d6d1f8e73bebe9e",
+    "after": "658c876255be936ffa3ce74d50081c168ca05e90337c29e88e0287e605ecd9f3"
   }
 }

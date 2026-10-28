@@ -3272,3 +3272,15 @@
  }
  
  void EnterpriseReportingPrivateGetContextInfoFunction::OnContextInfoRetrieved(
+--- a/chrome/browser/enterprise/signals/context_info_fetcher.cc
++++ b/chrome/browser/enterprise/signals/context_info_fetcher.cc
+@@ -77,7 +77,9 @@
+     enterprise_connectors::ConnectorsService* connectors_service)
+     : browser_context_(browser_context),
+       connectors_service_(connectors_service) {
++#if BUILDFLAG(ENTERPRISE_CLOUD_CONTENT_ANALYSIS)
+   DCHECK(connectors_service_);
++#endif  // BUILDFLAG(ENTERPRISE_CLOUD_CONTENT_ANALYSIS)
+ }
+ 
+ ContextInfoFetcher::~ContextInfoFetcher() = default;
